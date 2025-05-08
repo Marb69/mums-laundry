@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title> Laundry FAQ </title>
+     <link rel="shortcut icon" href="media/Asset/Icon-shop.png">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+ </head>
+ <body>
+
+    <header>
+
+        <nav>
+
+          
+            <div class="nav">
+             
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><div class="Logo-name"><img src="media/Asset/logo.png" alt="Error"></div></li>  
+                    <li><a href="booking.html">Booking</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+
+            </div>
+        </nav>
+    </header>
+ 
+    <main>
+
+        <section class="section-faq">
+
+            <div class="faq-container">
+
+                <div class="image-container">
+                    <img src="media/Asset/Hero-content-img/faqimage.webp" alt="">
+                </div>
+        
+                <div class="faq-content">
+
+                    <h1 class="title">FAQ's</h1>
+         
+                <div class="questions-container">
+                    <div class="question">
+                        <button>
+                            <span>What services do you offer?</span>
+                            <i class="fas fa-chevron-down d-arrow"></i>
+                        </button>
+                        <p>We offer wash & fold, ironing,Same-Day Laundry, and pick-up & delivery services.</p>
+                    </div>
+            
+                    <div class="question">
+                        <button>
+                            <span> How do I book a laundry service?</span>
+                            <i class="fas fa-chevron-down d-arrow"></i>
+                        </button>
+                        <p>You can book easily through our website’s booking form. </p>
+                    </div>
+            
+                    <div class="question">
+                        <button>
+                            <span>How much do your services cost?</span>
+                            <i class="fas fa-chevron-down d-arrow"></i>
+                        </button>
+                        <p>Our rates are affordable! Prices vary depending on weight and service type.</p>
+                    </div>
+            
+                    <div class="question">
+                        <button>
+                            <span>What are your operating hours?</span>
+                            <i class="fas fa-chevron-down d-arrow"></i>
+                        </button>
+                        <p>We are open from 8:00 AM to 7:00 PM, Monday to Saturday. Closed on Sundays.</p>
+                    </div>
+                </div>
+
+                </div>
+                
+        
+            </div>
+            
+         </section>
+
+    </main>
+ 
+    <footer >
+
+        <div class="footer-content-container">
+    
+            <div class="nav-about">
+                <h2>Quick Link</h2>
+            
+             
+    
+                <ul>
+                  
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="booking.html">Booking</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="about.html">About Us</a></li>
+              
+                </ul>
+    
+            </div>
+    
+            <div class="location">
+    
+            
+    
+                <div class="map">
+                    <h2>Map</h2>
+            
+    
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3956.1819869866754!2d125.81075667481483!3d7.
+                445107592565972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32f9539387176313%3A0xff18dcf56741f889!2sMums%20
+                Laundry%20Services!5e0!3m2!1sen!2sph!4v1744966916403!5m2!1sen!2sph" width="300"
+                 height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    
+                </div>
+                
+             <div class="address">
+                <h2>Address</h2>
+             
+                <p> Door 5&6 Cris Inn Hotel Davao Central Warehouse Inc. Lower Apokon, Magugpo East,
+                   Tagum City, 8100 8100 Tagum City, Philippines
+          </p>
+             </div>
+              
+            </div>
+        </div>
+        <div class="line">
+        <span><hr></span>
+    
+        </div>
+       
+        <div class="copyright">
+            <p>© 2025 Mum's Laundry Shop. All rights reserved.</p>
+        </div>
+    </footer>
+
+ <script >
+    const buttons = document.querySelectorAll('button');
+ 
+ buttons.forEach( button =>{
+     button.addEventListener('click',()=>{
+         const faq = button.nextElementSibling;
+         const icon = button.children[1];
+ 
+         faq.classList.toggle('show');
+         icon.classList.toggle('rotate');
+     })
+ } )
+ </script>
+ </body>
+ </html>
