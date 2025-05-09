@@ -230,7 +230,10 @@ header{
     
 }
 
+.featured-container #mid-featured{
 
+    flex-direction: row-reverse;
+}
 .featured-description #btn{
 
     background-color: rgb(247, 140, 73);
@@ -1124,10 +1127,14 @@ margin-top: 20px ;
    
     }
  
+    .featured-container{
 
+        width: 100%;
+    }
 .featured-container .featured-description{
 
     font-size: small;
+    width: 100%;
 
     h3{
 
@@ -1137,13 +1144,16 @@ margin-top: 20px ;
 
 .featured-content{
 
-    width: 100%;
+   
     align-items: center;
+    display: block;
+    
 }
+
 
 .featured-content .featured-img{
 
-    width: 40vw;
+    width: 100%;
     height: 30vh;
 }
 
