@@ -45,6 +45,10 @@ header{
 
 }
 
+.nav ul a:hover{
+
+    color: #443e3e;
+}
 
 .nav img{
 
@@ -69,16 +73,18 @@ header{
 
 .hero-content-container{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     width: 90vw;
     padding: 10px;
-  
+    justify-content: center;
 
 }
 .text-hero{
 
      
     padding: 40px;
+    width: 40vw;
    
     p{
 
@@ -1076,6 +1082,10 @@ margin-top: 20px ;
         
     }
   
+    .hero-content-container .text-hero{
+
+        width: 79vw;
+    }
     .hero-content-container .image-hero {
 
         justify-self: center;
@@ -1084,7 +1094,7 @@ margin-top: 20px ;
     .hero-content-container .image-hero img{
 
 
-        width: 60vw;
+        width: 70vw;
    
     }
  
@@ -1281,3 +1291,74 @@ margin-top: 20px ;
   }
 }
 /*END*/
+
+/*tablet*/
+
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+   
+    .nav ul{
+
+        gap: 10px;
+     }
+ 
+     .nav ul a{
+ 
+         font-size: 16px;
+     }
+     .hero-content-container{
+ 
+         display: block;
+         font-size: small;
+         
+         
+     }
+
+.hero-content-container .text-hero{
+
+    width: 100%;
+}
+
+.featured-container .featured-content{
+
+    width: 100%;
+}
+.featured-container{
+
+    width: 100%;
+}
+
+.footer-content-container .location .map,.address{
+
+    margin-top: 10px;
+}
+
+.promotion-container .context-promo{
+
+    width: 100%;
+}
+
+.faq-content{
+
+    width: 100%;
+}
+
+.questions-container{
+
+    width: 100%;
+}
+
+.questions-container .question{
+
+    width: 100%;
+}
+.mums-gallery-container .content-right{
+
+    width: 70vw;
+}
+
+.mums-gallery-container .content{
+
+    width:20%;
+}
+    }
+/*end*/
