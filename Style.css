@@ -17,6 +17,7 @@ header{
     background-color:transparent;
     border-bottom: solid #b0adad;
     border-radius: 5px;
+
 }
 
 
@@ -44,7 +45,24 @@ header{
     }
 
 }
+.nav .Logo-name-right {
 
+    display: none;
+}
+#Navagation .checkbtn{
+
+    font-size: 30px;
+    color: #544e4e;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+
+    
+}
 .nav ul a:hover{
 
     color: #443e3e;
@@ -56,6 +74,8 @@ header{
     border-radius: 50%;
     box-shadow: 0 0 5px rgb(186, 184, 184);
 }
+
+
 
 #hero-section-content{
 
@@ -1070,10 +1090,16 @@ margin-top: 20px ;
        gap: 10px;
     }
 
-    .nav ul a{
+    .nav ul{
 
-        font-size: 10px;
+        font-size: 6px;
     }
+    
+    .nav .Logo-name img{
+
+        width: 60px;
+    }
+
     .hero-content-container{
 
         display: block;
@@ -1128,6 +1154,7 @@ margin-top: 20px ;
     padding: 20px;
     margin: 20px;
     border-radius: 10px;
+    display: block;
 }
 .container .des{
 
@@ -1140,12 +1167,7 @@ margin-top: 20px ;
     width: 40vw;
     height: 7vh;
 }
-.container .service .images {
 
-    width: 60vw;
-    height: 50vh;
- 
-}
 .container .service .images img{
 
     width: 90%;
